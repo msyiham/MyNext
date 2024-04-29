@@ -17,12 +17,12 @@ const collection = () => {
         <div className="container">
             <div className="row">
               <div className="col-md-6">
-                  <div className="subtitle mb20">Most complete</div>
-                  <h2 className="wow fadeInUp">Game Collection</h2>
+                  <div className="subtitle mb20">Gallery</div>
+                  <h4 className="wow fadeInUp">my photos</h4>
                   <div className="spacer-20"></div>
               </div>
               <div className="col-lg-6 text-lg-end">
-                  <Link className="btn-main mb-sm-30" href="#">View all games</Link>
+                  <Link className="btn-main mb-sm-30" href="#">View all photos</Link>
               </div>
             </div>
             <div className="row g-4 sequence">

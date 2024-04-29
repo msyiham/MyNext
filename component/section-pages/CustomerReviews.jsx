@@ -17,8 +17,8 @@ const Customerreviews = () => {
     <div className="container">
             <div className="row">
                 <div className="col-md-12">
-                    <div className="subtitle mb20">Customer reviews</div>
-                    <h2 className="wow fadeInUp">4.85 out of 5</h2>
+                    <div className="subtitle mb20">How my friends think about you?</div>
+                    <h4 className="wow fadeInUp">nihh hasil surveynya wkwk</h4>
                     <div className="spacer-20"></div>
                 </div>
             </div>
