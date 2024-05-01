@@ -100,7 +100,7 @@ const Customerreviews = () => {
                   )}
                 </p>
                 <div className="de_testi_by">
-                  <img alt="" src={testimonial.imageSrc} />
+                  <Image alt="" src={testimonial.imageSrc} />
                   <span>{testimonial.author}</span>
                 </div>
               </blockquote>
