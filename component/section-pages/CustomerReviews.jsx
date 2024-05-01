@@ -1,7 +1,7 @@
 import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Image from 'next/image';
-
+import { useState } from 'react';
 import image1 from"../../public/img/people/1.jpg";
 import image2 from"../../public/img/people/2.jpg";
 import image3 from"../../public/img/people/3.jpg";
@@ -40,7 +40,15 @@ const Customerreviews = () => {
     },
     // Tambahkan testimonial lainnya di sini...
   ];
-  
+  const [expandedIndexes, setExpandedIndexes] = useState([]);
+
+  const toggleExpand = (index) => {
+    if (expandedIndexes.includes(index)) {
+      setExpandedIndexes(expandedIndexes.filter(item => item !== index));
+    } else {
+      setExpandedIndexes([...expandedIndexes, index]);
+    }
+  };
   return (
     <>
     <div className="container">
