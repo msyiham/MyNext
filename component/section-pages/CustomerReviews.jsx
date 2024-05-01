@@ -10,9 +10,37 @@ import image5 from"../../public/img/people/5.jpg";
 import image6 from"../../public/img/people/6.jpg";
 import image7 from"../../public/img/people/7.jpg";
 import image8 from"../../public/img/people/8.jpg";
-import Testimonial from './testimonial';
 
 const Customerreviews = () => {
+  const testimonials = [
+    {
+      content: "first impression e sebenere terlihat pendiam si tapi ternyata wow ada jiwa reog di dalamnya  trus aku merasa memiliki beberapa kesamaan sifat, kek 11 12 gitu tapi lek lina versi tercover dengan wajah yg pendiam dan seperti ibu peri ngunu ngunu o ga kenek senggol iku areke, coba senggolen la diamuk 😔 trus areke batu bgt coggg susah skali musuh batu satu ini, makane lek menghadapi jgn smsm atos harus dihadapi dgn lemah lembut ea overall areke teman yg baik meskipun smsm cegil 😔 tapi areke pemberi saran yg baik oponeh masalah relesyensip, kek ga semua iso menanggapi dgn netral gt lo lek aku cerita ttg cwoku, tapi lina iso lek tmnku yg lain terlalu memihak ng aku jd membuat cwoku terlihat salah terus. apalagi yhh bingung. suka ajh temenan sm lina sampe skarang, trims sdh mau berteman sm aku xixixi",
+      imageSrc: image3,
+      author: "Nila"
+    },
+    {
+      content: "halo sobat (E/I)NFJ ku disclaimer aku tidak WoA jadi mohon maap kalo tidak bisa berkata-kata yang bagus😔 jujur aku ga begitu inget first impression pertama kali kita ketemu😔 (maff short term memory) tapi emang uda lama banget bzirr ingetku pokok dulure sasa😔 long story short ternyata setelah berteman kita nyambung ya wak meskipun you menjengkelkan kadang-kadang tapi gapapa, kamu tuh unik seperti cecek wkwk tapi ga bohong you memang unik bjir ga nemu namu manusia unik kek dirimu ini, tapi kamu baiq ihihi maw tak ajak kemana-mana dan maw menunggu aku yang sangat ngaret ini lov besar sebesar dino.  jujurr I really like your unique personality, I think that's your strength and what makes you special, so just to be yourself, don't think about what people say about you because you are you and you should be proud of that🤍 semangat kkn mbak lenn, semangat bimbingan juga asixx sudah dapat dosbing nih bozz, jangan stress banget banget ntar jerawatmu sekebon, kalo bisa stress bersama kenapa harus stress sendiri andjay terimakasii suda menjadi member ps yang sudah bolak balik ganti nama itu yeps lope besar semoga kamu ketemu abe cekut di lawang sudah itu saja yaa baibaii👋 ",
+      imageSrc: image2,
+      author: "Sylla"
+    },
+    {
+      content: "eemm mgkn kesan pertama ku ketemu lina keliatane jutek judes, tapi ternyata kalo ws kenal yo aree penakan iso nyambung apapun lek diajak ngomong tapi yo ngunu dee nada biacaranya sometimes ngegassss, tapi its okey dee ga pernah sampe bikin sakit hati kok dengan perkataanya rill lina punya banyak kelebihan menurutkuu, aree seperti spotify berjalann karna emang segampang iku deh lek tanya judul lagu apapun mostly dee eruh, dee yoo pinterr bangett diantara adewe ber5 sng paling strong menghadapi matkul perteknikan sng kyk ngunu dee iso bertahan. dee bijak banget nek mengasihi nasihat ttg apapun ng aku. si paling iling apapun sng pernah tak ceritakan meskipun iku cerita lama bangettt. sukaa banget banget pokok due konco kyk lina iki. minusnyaa apaa yaaa hampir tidak ada dehhh, yaa mgkn lebih sabar aja kalo dee ngegasss. ",
+      imageSrc: image2,
+      author: "Hikmah"
+    },
+    {
+      content: "hemmmm ",
+      imageSrc: image2,
+      author: "Nisrina"
+    },
+    {
+      content: "halo lalalina!! \n orang sumbu pendek yang sangat gampang meledak dan kakean nggibah 😭 semoga menjadi mahasiswa kesayangan pak kar forever wkwkkw",
+      imageSrc: image2,
+      author: "Fikri"
+    },
+    // Tambahkan testimonial lainnya di sini...
+  ];
+  
   return (
     <>
     <div className="container">
@@ -34,18 +62,44 @@ const Customerreviews = () => {
       loop
       slideToClickedSlide
       >
-      <SwiperSlide>
-        <Testimonial maxLength={100} imageSrc={image1} author={"Hikmah"} content={"eemm mgkn kesan pertama ku ketemu lina keliatane jutek judes, tapi ternyata kalo ws kenal yo aree penakan iso nyambung apapun lek diajak ngomong tapi yo ngunu dee nada biacaranya sometimes ngegassss, tapi its okey dee ga pernah sampe bikin sakit hati kok dengan perkataanya rill lina punya banyak kelebihan menurutkuu, aree seperti spotify berjalann karna emang segampang iku deh lek tanya judul lagu apapun mostly dee eruh, dee yoo pinterr bangett diantara adewe ber5 sng paling strong menghadapi matkul perteknikan sng kyk ngunu dee iso bertahan. dee bijak banget nek mengasihi nasihat ttg apapun ng aku. si paling iling apapun sng pernah tak ceritakan meskipun iku cerita lama bangettt. sukaa banget banget pokok due konco kyk lina iki. minusnyaa apaa yaaa hampir tidak ada dehhh, yaa mgkn lebih sabar aja kalo dee ngegasss."} />
-      </SwiperSlide>
-      <SwiperSlide>
-        <Testimonial maxLength={100} imageSrc={image2} author={"Sylla"} content={"halo sobat (E/I)NFJ ku disclaimer aku tidak WoA jadi mohon maap kalo tidak bisa berkata-kata yang bagus😔 jujur aku ga begitu inget first impression pertama kali kita ketemu😔 (maff short term memory) tapi emang uda lama banget bzirr ingetku pokok dulure sasa😔 long story short ternyata setelah berteman kita nyambung ya wak meskipun you menjengkelkan kadang-kadang tapi gapapa, kamu tuh unik seperti cecek wkwk tapi ga bohong you memang unik bjir ga nemu namu manusia unik kek dirimu ini, tapi kamu baiq ihihi maw tak ajak kemana-mana dan maw menunggu aku yang sangat ngaret ini lov besar sebesar dino.  jujurr I really like your unique personality, I think that's your strength and what makes you special, so just to be yourself, don't think about what people say about you because you are you and you should be proud of that🤍 semangat kkn mbak lenn, semangat bimbingan juga asixx sudah dapat dosbing nih bozz, jangan stress banget banget ntar jerawatmu sekebon, kalo bisa stress bersama kenapa harus stress sendiri andjay terimakasii suda menjadi member ps yang sudah bolak balik ganti nama itu yeps lope besar semoga kamu ketemu abe cekut di lawang sudah itu saja yaa baibaii👋 "} />
-      </SwiperSlide>
-      <SwiperSlide>
-        <Testimonial maxLength={100} imageSrc={image3} author={"Nila"} content={"first impression e sebenere terlihat pendiam si tapi ternyata wow ada jiwa reog di dalamnya  trus aku merasa memiliki beberapa kesamaan sifat, kek 11 12 gitu tapi lek lina versi tercover dengan wajah yg pendiam dan seperti ibu peri ngunu ngunu o ga kenek senggol iku areke, coba senggolen la diamuk 😔 trus areke batu bgt coggg susah skali musuh batu satu ini, makane lek menghadapi jgn smsm atos harus dihadapi dgn lemah lembut ea overall areke teman yg baik meskipun smsm cegil 😔 tapi areke pemberi saran yg baik oponeh masalah relesyensip, kek ga semua iso menanggapi dgn netral gt lo lek aku cerita ttg cwoku, tapi lina iso lek tmnku yg lain terlalu memihak ng aku jd membuat cwoku terlihat salah terus. apalagi yhh bingung. suka ajh temenan sm lina sampe skarang, trims sdh mau berteman sm aku xixixi"} />
-      </SwiperSlide>
-      <SwiperSlide>
-        <Testimonial maxLength={100} imageSrc={image4} author={"Fikri"} content={"halo lalalina!! \n orang sumbu pendek yang sangat gampang meledak dan kakean nggibah 😭 semoga menjadi mahasiswa kesayangan pak kar forever wkwkkw"} />
-      </SwiperSlide>
+      {testimonials.map((testimonial, index) => (
+        <SwiperSlide key={index}>
+          <div className="swiper-inner">
+            <div className="de_testi type-2">
+              <blockquote>
+                <div className="de-rating-ext">
+                  <span className="d-stars">
+                    <i className="fa fa-star"></i>
+                    <i className="fa fa-star"></i>
+                    <i className="fa fa-star"></i>
+                    <i className="fa fa-star"></i>
+                    <i className="fa fa-star"></i>
+                  </span>
+                </div>
+                <p>
+                  &quot;
+                  {expandedIndexes.includes(index) ? testimonial.content : `${testimonial.content?.slice(0, 100)}...`}
+                  &quot;
+                  {!expandedIndexes.includes(index) && (
+                    <span style={{ color: 'powderblue', cursor: 'pointer' }} onClick={() => toggleExpand(index)}>
+                      Baca Selengkapnya
+                    </span>
+                  )}
+                  {expandedIndexes.includes(index) && (
+                    <span style={{ color: 'powderblue', cursor: 'pointer' }} onClick={() => toggleExpand(index)}>
+                      Lihat Lebih Sedikit
+                    </span>
+                  )}
+                </p>
+                <div className="de_testi_by">
+                  <img alt="" src={testimonial.imageSrc} />
+                  <span>{testimonial.author}</span>
+                </div>
+              </blockquote>
+            </div>
+          </div>
+        </SwiperSlide>
+      ))}
     </Swiper>
     </>
   );
