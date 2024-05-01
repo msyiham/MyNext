@@ -10,6 +10,7 @@ import image5 from"../../public/img/people/5.jpg";
 import image6 from"../../public/img/people/6.jpg";
 import image7 from"../../public/img/people/7.jpg";
 import image8 from"../../public/img/people/8.jpg";
+import Testimonial from './testimonial';
 
 const Customerreviews = () => {
   return (
@@ -34,173 +35,16 @@ const Customerreviews = () => {
       slideToClickedSlide
       >
       <SwiperSlide>
-        <div className="swiper-inner">
-            <div className="de_testi type-2">
-              <blockquote>
-                  <div className="de-rating-ext">
-                      <span className="d-stars">
-                          <i className="fa fa-star"></i>
-                          <i className="fa fa-star"></i>
-                          <i className="fa fa-star"></i>
-                          <i className="fa fa-star"></i>
-                          <i className="fa fa-star"></i>
-                      </span>
-                  </div>
-                  <p>&quot;I&apos;ve been using Playhost for my game server needs, and I couldn&apos;t be happier. The server uptime is fantastic, and the customer support team is always quick to assist with any issues.&quot;
-                  </p>
-                  <div className="de_testi_by">
-                      <Image alt="" src={image1}/> <span>Michael S.</span>
-                  </div>
-              </blockquote>
-          </div>
-        </div> 
+        <Testimonial maxLength={100} imageSrc={image1} author={"Hikmah"} content={"eemm mgkn kesan pertama ku ketemu lina keliatane jutek judes, tapi ternyata kalo ws kenal yo aree penakan iso nyambung apapun lek diajak ngomong tapi yo ngunu dee nada biacaranya sometimes ngegassss, tapi its okey dee ga pernah sampe bikin sakit hati kok dengan perkataanya rill lina punya banyak kelebihan menurutkuu, aree seperti spotify berjalann karna emang segampang iku deh lek tanya judul lagu apapun mostly dee eruh, dee yoo pinterr bangett diantara adewe ber5 sng paling strong menghadapi matkul perteknikan sng kyk ngunu dee iso bertahan. dee bijak banget nek mengasihi nasihat ttg apapun ng aku. si paling iling apapun sng pernah tak ceritakan meskipun iku cerita lama bangettt. sukaa banget banget pokok due konco kyk lina iki. minusnyaa apaa yaaa hampir tidak ada dehhh, yaa mgkn lebih sabar aja kalo dee ngegasss."} />
       </SwiperSlide>
       <SwiperSlide>
-        <div className="swiper-inner">
-            <div className="de_testi type-2">
-                <blockquote>
-                    <div className="de-rating-ext">
-                        <span className="d-stars">
-                            <i className="fa fa-star"></i>
-                            <i className="fa fa-star"></i>
-                            <i className="fa fa-star"></i>
-                            <i className="fa fa-star"></i>
-                            <i className="fa fa-star"></i>
-                        </span>
-                    </div>
-                    <p>&quot;Running a game server used to be a hassle, but Playhost makes it easy. The control panel is user-friendly, and I love how they handle server maintenance and updates.&quot;</p>
-                    <div className="de_testi_by">
-                        <Image alt="" src={image2}/> <span>Robert L.</span>
-                    </div>
-                </blockquote>
-            </div>
-        </div>         
+        <Testimonial maxLength={100} imageSrc={image2} author={"Sylla"} content={"halo sobat (E/I)NFJ ku disclaimer aku tidak WoA jadi mohon maap kalo tidak bisa berkata-kata yang bagus😔 jujur aku ga begitu inget first impression pertama kali kita ketemu😔 (maff short term memory) tapi emang uda lama banget bzirr ingetku pokok dulure sasa😔 long story short ternyata setelah berteman kita nyambung ya wak meskipun you menjengkelkan kadang-kadang tapi gapapa, kamu tuh unik seperti cecek wkwk tapi ga bohong you memang unik bjir ga nemu namu manusia unik kek dirimu ini, tapi kamu baiq ihihi maw tak ajak kemana-mana dan maw menunggu aku yang sangat ngaret ini lov besar sebesar dino.  jujurr I really like your unique personality, I think that's your strength and what makes you special, so just to be yourself, don't think about what people say about you because you are you and you should be proud of that🤍 semangat kkn mbak lenn, semangat bimbingan juga asixx sudah dapat dosbing nih bozz, jangan stress banget banget ntar jerawatmu sekebon, kalo bisa stress bersama kenapa harus stress sendiri andjay terimakasii suda menjadi member ps yang sudah bolak balik ganti nama itu yeps lope besar semoga kamu ketemu abe cekut di lawang sudah itu saja yaa baibaii👋 "} />
       </SwiperSlide>
       <SwiperSlide>
-        <div className="swiper-inner">
-            <div className="de_testi type-2">
-                <blockquote>
-                    <div className="de-rating-ext">
-                        <span className="d-stars">
-                            <i className="fa fa-star"></i>
-                            <i className="fa fa-star"></i>
-                            <i className="fa fa-star"></i>
-                            <i className="fa fa-star"></i>
-                            <i className="fa fa-star"></i>
-                        </span>
-                    </div>
-                    <p>&quot;I&apos;ve tried several hosting providers in the past, and Playhost is by far the best. Their server performance is top-notch, and I&apos;ve never experienced lag while playing with friends.&quot;</p>
-                    <div className="de_testi_by">
-                        <Image alt="" src={image3}/> <span>Jake M.</span>
-                    </div>
-                </blockquote>
-            </div>
-        </div> 
+        <Testimonial maxLength={100} imageSrc={image3} author={"Nila"} content={"first impression e sebenere terlihat pendiam si tapi ternyata wow ada jiwa reog di dalamnya  trus aku merasa memiliki beberapa kesamaan sifat, kek 11 12 gitu tapi lek lina versi tercover dengan wajah yg pendiam dan seperti ibu peri ngunu ngunu o ga kenek senggol iku areke, coba senggolen la diamuk 😔 trus areke batu bgt coggg susah skali musuh batu satu ini, makane lek menghadapi jgn smsm atos harus dihadapi dgn lemah lembut ea overall areke teman yg baik meskipun smsm cegil 😔 tapi areke pemberi saran yg baik oponeh masalah relesyensip, kek ga semua iso menanggapi dgn netral gt lo lek aku cerita ttg cwoku, tapi lina iso lek tmnku yg lain terlalu memihak ng aku jd membuat cwoku terlihat salah terus. apalagi yhh bingung. suka ajh temenan sm lina sampe skarang, trims sdh mau berteman sm aku xixixi"} />
       </SwiperSlide>
       <SwiperSlide>
-        <div className="swiper-inner">
-            <div className="de_testi type-2">
-                  <blockquote>
-                      <div className="de-rating-ext">
-                          <span className="d-stars">
-                              <i className="fa fa-star"></i>
-                              <i className="fa fa-star"></i>
-                              <i className="fa fa-star"></i>
-                              <i className="fa fa-star"></i>
-                              <i className="fa fa-star"></i>
-                          </span>
-                      </div>
-                      <p>As a new server owner, I was worried about setup and configuration, but Playhost made it a breeze. They have detailed tutorials and helpful support, which made the process smooth.&quot;</p>
-                      <div className="de_testi_by">
-                          <Image alt="" src={image4}/> <span>Alex P.</span>
-                      </div>
-                  </blockquote>
-              </div>
-        </div>         
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="swiper-inner">
-            <div className="de_testi type-2">
-                <blockquote>
-                    <div className="de-rating-ext">
-                        <span className="d-stars">
-                            <i className="fa fa-star"></i>
-                            <i className="fa fa-star"></i>
-                            <i className="fa fa-star"></i>
-                            <i className="fa fa-star"></i>
-                            <i className="fa fa-star"></i>
-                        </span>
-                    </div>
-                    <p>&quot;The flexibility Playhost offers is incredible. I can easily switch between game servers or even host multiple games on the same plan. It&apos;s a gamer&apos;s dream come true!&quot;</p>
-                    <div className="de_testi_by">
-                        <Image alt="" src={image5}/> <span>Carlos R.</span>
-                    </div>
-                </blockquote>
-            </div>
-        </div> 
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="swiper-inner">
-            <div className="de_testi type-2">
-                <blockquote>
-                    <div className="de-rating-ext">
-                        <span className="d-stars">
-                            <i className="fa fa-star"></i>
-                            <i className="fa fa-star"></i>
-                            <i className="fa fa-star"></i>
-                            <i className="fa fa-star"></i>
-                            <i className="fa fa-star"></i>
-                        </span>
-                    </div>
-                    <p>&quot;I&apos;ve been a loyal customer of Playhost for years now. Their dedication to keeping their hardware up-to-date ensures my gaming experience is always optimal.&quot;</p>
-                    <div className="de_testi_by">
-                        <Image alt="" src={image6}/> <span>Edward B.</span>
-                    </div>
-                </blockquote>
-            </div>
-        </div>         
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="swiper-inner">
-            <div className="de_testi type-2">
-                <blockquote>
-                    <div className="de-rating-ext">
-                        <span className="d-stars">
-                            <i className="fa fa-star"></i>
-                            <i className="fa fa-star"></i>
-                            <i className="fa fa-star"></i>
-                            <i className="fa fa-star"></i>
-                            <i className="fa fa-star"></i>
-                        </span>
-                    </div>
-                    <p>&quot;When our community needed a reliable server for our esports tournaments, we turned to Playhost, and they&apos;ve never let us down. Their servers are perfect for competitive gaming.&quot;</p>
-                    <div className="de_testi_by">
-                        <Image alt="" src={image7}/> <span>Daniel H.</span>
-                    </div>
-                </blockquote>
-            </div>
-        </div> 
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="swiper-inner">
-            <div className="de_testi type-2">
-                <blockquote>
-                    <div className="de-rating-ext">
-                        <span className="d-stars">
-                            <i className="fa fa-star"></i>
-                            <i className="fa fa-star"></i>
-                            <i className="fa fa-star"></i>
-                            <i className="fa fa-star"></i>
-                            <i className="fa fa-star"></i>
-                        </span>
-                    </div>
-                    <p>&quot;The DDoS protection from Playhost is a lifesaver. We used to get attacked regularly, but since switching to their servers, we haven&apos;t had any downtime.&quot;</p>
-                    <div className="de_testi_by">
-                        <Image alt="" src={image8}/> <span>Bryan G.</span>
-                    </div>
-                </blockquote>
-            </div>
-        </div>         
+        <Testimonial maxLength={100} imageSrc={image4} author={"Fikri"} content={"halo lalalina!! \n orang sumbu pendek yang sangat gampang meledak dan kakean nggibah 😭 semoga menjadi mahasiswa kesayangan pak kar forever wkwkkw"} />
       </SwiperSlide>
     </Swiper>
     </>

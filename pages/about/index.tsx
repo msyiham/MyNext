@@ -10,10 +10,10 @@ import Footer from '../../component/section-pages/footer';
 import ScrollToTopBtn from '../../component/layout/ScrollToTop';
 import { createGlobalStyle } from 'styled-components';
 
-const image1 ="../../img/background/subheader-about.webp";
-import image2 from "../../public/img/misc/building.webp";
+const image1 ="../../img/ourlove.jpg";
+import image2 from "../../public/img/about.jpg";
 import image3 from "../../public/img/misc/girl-ai.webp";
-import image4 from "../../public/img/team/1.webp";
+import image4 from "../../public/img/myphoto.jpg";
 import image5 from "../../public/img/team/3.webp";
 import image6 from "../../public/img/team/4.webp";
 
@@ -58,10 +58,10 @@ export default function Home() {
           <div className="container z-9">
               <div className="row">
                   <div className="col-lg-12">
-                      <div className="subtitle  mb-3">About us</div>
+                      <div className="subtitle  mb-3">About this Website</div>
                   </div>
                   <div className="col-lg-6">
-                      <h2 className=" mb20" data-wow-delay=".2s">This is our story</h2>
+                      <h2 className=" mb20" data-wow-delay=".2s">This is the story</h2>
                   </div>                 
               </div>
           </div>
@@ -74,23 +74,19 @@ export default function Home() {
               <div className="row align-items-center gh-5">
                   <div className="col-lg-6 position-relative">
                       <div className="images-deco-1">
-                          <Image src={image2} className="d-img-1" alt=""/>
-                          <Image src={image3} className="d-img-2" alt=""/>
+                          <Image src={image2} className="d-img-1" alt="" />
                           <div className="d-img-3 bg-color"></div>
                       </div>
                   </div>
                   <div className="col-lg-6">
-                      <div className="subtitle mb20">We are Playhost</div>
-                      <h2 >The beginning</h2>
-                      <p >Lorem ipsum ea ut magna nisi amet reprehenderit eu 
-                      adipisicing nisi incididunt est sint fugiat deserunt tempor ea culpa nostrud 
-                      commodo deserunt et do ullamco non tempor veniam id culpa mollit veniam ut
-                      non adipisicing ad commodo laborum esse do sunt in cillum irure incididunt 
-                      officia quis ut.
+                      <div className="subtitle mb20">Latar Belakang</div>
+                      <h2 >Ngarang dikit</h2>
+                      <p >
+                        Aku iku suka kamu banyak banyak wkwk.. tapi jujur aku gatau sebener e mau ngaih apa ang kamu. aku bikin iki, karena iki sesuatu yang mungkin bisa tak lakukan tapi ga banyak orang yang bisa, yo lek TI mungkin ini hal biasa, tapi aku yakin iki uduk hal yang biasa diberikan ke orang lain ebagai hadiah. Selain iku, lek bikin sendiri kan aku lebih banyak effort e wkwkwk. Aku berharap kamu suka., lof u sayang.. Happy birthday🎉
                       </p>
                       <div className="year-card ">
-                          <h1><span className="id-color">25</span></h1>
-                          <div className="atr-desc">Years<br/>Experience<br/>Hosting</div>
+                          <div className="atr-desc">Ulang Tahun<br/> Ke-</div>
+                          <h1><span className="id-color">21</span></h1>
                       </div>
                   </div>
               </div>
@@ -103,13 +99,14 @@ export default function Home() {
             <div className="row">
                 <div className="col-lg-8 offset-lg-2">
                     <div className="row gx-5">
+                        <div className="subtitle mb20 text-center">Proses Pembuatan</div>
                         <div className="col-lg-6 col-md-6">
-                            <h4>Our Vision</h4>
-                            <p>Adipisicing pariatur dolor pariatur officia aliqua ex irure aliqua ut exercitation nulla exercitation esse duis do commodo exercitation sed exercitation aliquip fugiat. Dolor ad amet sed aliqua ad nisi anim fugiat dolor labore ex non amet id mollit amet id magna elit fugiat voluptate aliquip in est quis aliquip aliqua eu. Lorem ipsum irure sed nisi id aute exercitation fugiat.</p>
+                            <h4>Kemudahan</h4>
+                            <p>Karena aku seneng bikin iki ge kamu, jadi rasane ga sulit wkwk.. Meskipun iki project pertamaku dengan strutur yang beda tapi alhamdulllah tibake iso wkwk.. Oiyoo survey seng tak masukno kuwi kan tekan teman-teman Alhamdulillah mereka juga tanggap dan mau bantu aku ngisi konten nde web iki wkwk.. Untuk masala foto juga banyak fotomu wkwk.. jadi makasii dah ngirimin asset e wkwk</p>
                         </div>
                         <div className="col-lg-6 col-md-6">
-                            <h4>Our Mission</h4>
-                            <p>Adipisicing pariatur dolor pariatur officia aliqua ex irure aliqua ut exercitation nulla exercitation esse duis do commodo exercitation sed exercitation aliquip fugiat. Ut excepteur deserunt labore exercitation commodo exercitation minim aliquip in aliqua deserunt nulla aliquip officia ut eiusmod irure ullamco sunt sunt velit dolor ex. Enim eu proident in non officia culpa.</p>
+                            <h4>Kesulitan</h4>
+                            <p>Jujur aja ga banyak kesulitan seng a ge bikin iki, lek diuruh nyebutin ada se tapi.. wkwk. Seng pertama iku jelas masala waktu, kamu tau sendiri waktuku ngnggur i dikit dan aku saiki we gaiso melekan maneh koyok biyen, jadii ya aku ngerjain iki kurang lebih iku 2 bulanan wkwk.. Terus yang bikin aku lama juga iku mikirin is konten e mau tak isi apa.. yaa iitu aja se yang wkwk.</p>
                         </div>
                     </div>
                 </div>
@@ -121,8 +118,8 @@ export default function Home() {
       <section className="no-top">
         <div className="container">
           <div className="row">
-              <div className="col-lg-3">
-                  <div className="subtitle mb20">Our solid team</div>
+              <div className="col-lg-6">
+                  <div className="subtitle mb20">Pembuat</div>
                   <h2 className="mb20 wow fadeInUp">Behind the scene</h2>
               </div>
 
@@ -144,54 +141,8 @@ export default function Home() {
                           <Image src={image4} className="fp-image img-fluid" alt=""/>
                       </div>
 
-                      <h4>Robyn Peel</h4>
-                      CEO Founder
-                  </div>
-              </div>
-
-              <div className="col-lg-3 col-md-6 col-sm-6 mb-sm-30">
-                  <div className="f-profile text-center">
-                      <div className="fp-wrap f-invert">
-                          <div className="fpw-overlay">
-                              <div className="fpwo-wrap">
-                                  <div className="fpwow-icons">
-                                      <Link to="#"><i className="fa-brands fa-facebook fa-lg"></i></Link>
-                                      <Link to="#"><i className="fa-brands fa-twitter fa-lg"></i></Link>
-                                      <Link to="#"><i className="fa-brands fa-linkedin fa-lg"></i></Link>
-                                      <Link to="#"><i className="fa-brands fa-instagram fa-lg"></i></Link>
-                                      <Link to="#"><i className="fa-brands fa-tiktok fa-lg"></i></Link>
-                                  </div>
-                              </div>
-                          </div>                                  
-                          <div className="fpw-overlay-btm"></div>
-                          <Image src={image5} className="fp-image img-fluid" alt=""/>
-                      </div>
-
-                      <h4>Anna Shepard</h4>
-                      Director
-                  </div>
-              </div>
-
-              <div className="col-lg-3 col-md-6 col-sm-6 mb-sm-30">
-                  <div className="f-profile text-center">
-                      <div className="fp-wrap f-invert">
-                          <div className="fpw-overlay">
-                              <div className="fpwo-wrap">
-                                  <div className="fpwow-icons">
-                                      <a href="#"><i className="fa-brands fa-facebook fa-lg"></i></a>
-                                      <a href="#"><i className="fa-brands fa-twitter fa-lg"></i></a>
-                                      <a href="#"><i className="fa-brands fa-linkedin fa-lg"></i></a>
-                                      <a href="#"><i className="fa-brands fa-instagram fa-lg"></i></a>
-                                      <a href="#"><i className="fa-brands fa-tiktok fa-lg"></i></a>
-                                  </div>
-                              </div>
-                          </div>                                  
-                          <div className="fpw-overlay-btm"></div>
-                          <Image src={image6} className="fp-image img-fluid" alt=""/>
-                      </div>
-
-                      <h4>Fynley Wilkinson</h4>
-                      Developer
+                      <h4>Muhammad Syiham Alfaruq</h4>
+                      Your love (maybe :v)
                   </div>
               </div>
 
@@ -200,12 +151,7 @@ export default function Home() {
       </section>
 
       {/* section */}
-      <section className="no-top">
-       <Reviews/>
-      </section>
-
-      {/* section */}
-      <section className="no-top">
+      {/* <section className="no-top">
        <div className="container">
             <div className="row text-center">
                 <div className="col-lg-3 col-sm-6 mb-sm-30 position-relative">
@@ -234,7 +180,7 @@ export default function Home() {
                 </div>
             </div>
         </div>
-      </section>
+      </section> */}
 
       {/* footer */}
       <Footer/>

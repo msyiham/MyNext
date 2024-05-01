@@ -9,40 +9,10 @@ const footer = () => {
         <footer>
             <div className="container">
                 <div className="row gx-5">
-                    <div className="col-lg-4">
+                    <div className="col-lg-8">
                         <Image src={image1} alt="" />
                         <div className="spacer-20"></div>
-                        <p>Lorem ipsum culpa tempor tempor eu laboris adipisicing sunt excepteur enim laborum officia eiusmod laborum sint do aliqua incididunt est aute deserunt in elit non sed ut velit ullamco aliquip. Nulla cupidatat elit amet sed labore ut et consequat nostrud laboris aliqua ex est fugiat quis aliqua duis quis esse dolor laboris non duis sunt.</p>
-                    </div>
-                    <div className="col-lg-4">
-                        <div className="row">
-                            <div className="col-lg-6 col-sm-6">
-                                <div className="widget">
-                                    <h5>Game Server</h5>
-                                    <ul>
-                                        <li><Link href="#">Thunder and City</Link></li>
-                                        <li><Link href="#">Mystic Racing Z</Link></li>
-                                        <li><Link href="#">Silent Wrath</Link></li>
-                                        <li><Link href="#">Funk Dungeon</Link></li>
-                                        <li><Link href="#">Galactic Oddsey</Link></li>
-                                        <li><Link href="#">Warfare Legend</Link></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 col-sm-6">
-                                <div className="widget">
-                                    <h5>Pages</h5>
-                                    <ul>
-                                        <li><Link href="#">Game Server</Link></li>
-                                        <li><Link href="#">Knowledgebase</Link></li>
-                                        <li><Link href="#">About Us</Link></li>
-                                        <li><Link href="#">Affliates</Link></li>
-                                        <li><Link href="#">Locations</Link></li>
-                                        <li><Link href="#">News</Link></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                        <p>Terimakasih sudah mengunjungi web ini wkwk.. Semoga mba cantik sukaa.. <br /> Wapyuu...</p>
                     </div>
                     <div className="col-lg-4">
                         <div className="widget">
@@ -74,7 +44,7 @@ const footer = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 col-sm-6">
-                           Copyright 2023 - Playhost by Designesia
+                           Copyright 2024 - Build with love by <b style={{color:'aquamarine'}}>Syiham</b> 
                         </div>
                         <div className="col-lg-6 col-sm-6 text-lg-end text-sm-start">
                             <ul className="menu-simple">
