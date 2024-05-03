@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Parallax } from "react-parallax";
 import Image from 'next/image';
 
-import image1 from '../../public/img/covers/1.webp';
+import image1 from '../../public/img/gallery/gallery1.jpg';
 import image2 from '../../public/img/covers/2.webp';
 import image3 from '../../public/img/covers/3.webp';
 import image4 from '../../public/img/covers/4.webp';
@@ -18,11 +18,8 @@ const collection = () => {
             <div className="row">
               <div className="col-md-6">
                   <div className="subtitle mb20">Gallery</div>
-                  <h4 className="wow fadeInUp">my photos</h4>
+                  <h4 className="wow fadeInUp">Your Photos</h4>
                   <div className="spacer-20"></div>
-              </div>
-              <div className="col-lg-6 text-lg-end">
-                  <Link className="btn-main mb-sm-30" href="#">View all photos</Link>
               </div>
             </div>
             <div className="row g-4 sequence">
@@ -31,12 +28,11 @@ const collection = () => {
                 <div className="de-item wow">
                     <div className="d-overlay">
                         <div className="d-label">
-                            20% OFF
+                            Imut
                         </div>
                         <div className="d-text">
-                            <h4>Thunder and City</h4>
-                            <p className="d-price">Starting at <span className="price">$14.99</span></p>
-                            <Link className="btn-main btn-fullwidth" href="#">Order Now</Link>
+                            <h4>Imut dan Lucu</h4>
+                            <p className="d-price">Foto saat<br /><span className="price">jalan-jalan sama ps</span></p>
                         </div>
                     </div>
                     <Image src={image1} className="img-fluid " alt=""/>

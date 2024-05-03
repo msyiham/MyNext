@@ -29,7 +29,7 @@ const Customerreviews = () => {
       author: "Hikmah"
     },
     {
-      content: "hemmmm ",
+      content: "Menjelaskan bagaimana mbak lina ini agaknya susah susah gampang, karena aku sudah dari kecil bersama mbak lina jadi yaa gituu perubahannya mungkin ketara banget tapi yaa mungkin ada beberapa part deep inside her aku ngga tau tapii menurutku seperti ini\nMbak lina salah satu spesies taurus cewe yang ku kenal. Sudah pasti si taurus ini keras kepala, batu, banget malah tapi yaa loyal memang orangnya, punya pendirian sendiri. Maybe yaa kalo orang liat pasti kek apasi ni org marah marah mulu, ngegas mulu, tapi kita yang udah tau dia ya pastii sudahh biasa, untungnya kalo di ps sih ada pawangnya wkwk\nMeskipun keras kepala, mbak lina care kok. Butuh yg fast respon? Udah wa aja dia pasti langsung dibales, kecuali dia deep sleep yhh kawan kawan ato sedang sibuk to the max, tapi aku gapernah sii pastii se fast respon itu wkwk\nMbak lina juga org nya realistis, kalo aku bodoh sama urusan percintaan pasti langsung di ulti wkwk, sarannya pakek logika jadi kadang aku yg terlalu pakek hati ini susah buat nerima tapi semua sarannya bener? Gimana dong wkwk, tengkyu ya mbak len meskipun sampe sekarang aku masih tetep tolol wkwk\nHope u find ur own happiness ya mbak len, kamu sudah tau luka ku, kuharap kamu jangan merasakan apa yang kurasakan sudah cukup aku wkwk, kamu bagian menyadarkan aku ajaa kek biasanya \nTengkyu sudah menjadi my chicago with member ps yang lain, at the end of the day ketika aku terpuruk ya kalian yg selalu ada.",
       imageSrc: image2,
       author: "Nisrina"
     },
