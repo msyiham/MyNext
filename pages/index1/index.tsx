@@ -20,15 +20,7 @@ import Payment from '../../component/section-pages/Payment';
 import Footer from '../../component/section-pages/footer';
 import ScrollToTopBtn from '../../component/layout/ScrollToTop';
 import { createGlobalStyle } from 'styled-components';
-import AOS from 'aos';
 
-AOS.init({
-  offset: 200,
-  duration: 800,
-  easing: 'ease-in-out-sine',
-  delay: 200,
-  mirror: true
-});
 const image1 ="../../img/background/bg2.jpg";
 
 const GlobalStyles = createGlobalStyle`
