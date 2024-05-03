@@ -20,7 +20,7 @@ const Section = () => {
                                 <h2 className="wow fadeInUp" data-wow-delay=".2s">mba cantik</h2>
                                 <p className="wow fadeInUp" style={{color:'HighlightText'}}>Namamu Maulina Nur Laili wkwk dah tauu kann. Kamu iku mahasiswi S1 Teknik Sipil di Universitas Negeri Malang dah tahu juga kann wkwk. Kamu memang ga bisa mengendarai motor wkwk.. Tapi kamu ikuu mampu melakukan banyak hal sulit dalam waktu yang sama sendiri. Alay yaa wkwk.. tapi itulah saya mahasiswi yang cantik, imut dan lucu ini wkwk</p>
                                 <div className="spacer-10"></div>
-                                <Link className="btn-main mb10" href="#">baca lebih banyak</Link>
+                                <Link className="btn-main mb10" href="/about-you">baca lebih banyak</Link>
                             </div>
                         </div>
                         

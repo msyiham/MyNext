@@ -71,7 +71,7 @@ const { isOpen: openMenu4, toggleDropdown: handleBtnClick4, closeDropdown: close
           {/********* Logo *********/}
           <Link  className="navbar-brand" href="/">
             <Image src={logoImg} className="img-fluid d-md-block d-none imginit" alt="logo"/>
-            <Image src={logoImgmbl} className="img-fluid d-md-none d-sms-none imginit" alt="logo"/>
+            <Image src={logoImg} className="img-fluid d-md-none d-sms-none imginit" alt="logo"/>
           </Link>
           {/********* Logo *********/}
 
@@ -131,6 +131,11 @@ const { isOpen: openMenu4, toggleDropdown: handleBtnClick4, closeDropdown: close
                     </div>
                   </div>
 
+                   <div className='navbar-item counter'>
+                      <Link href="/outgiving" onClick={() => setBtnIcon(!showmenu)}>
+                      Locations
+                      </Link>
+                    </div>
                    <div className='navbar-item counter'>
                       <Link href="/location" onClick={() => setBtnIcon(!showmenu)}>
                       Locations
@@ -264,33 +269,18 @@ const { isOpen: openMenu4, toggleDropdown: handleBtnClick4, closeDropdown: close
             </div>
 
             <div className='navbar-item counter'>
-              <Link href="/location">
-              Locations
+              <Link href="/outgiving">
+              Ucapan
               </Link>
             </div>
-
             <div className='navbar-item counter'>
-                <div ref={ref2}>
-                  <div className="dropdown-custom dropdown-toggle btn" 
-                     onMouseEnter={handleBtnClick2} onMouseLeave={closeMenu2}>
-                    Support
-                    {openMenu2 && (
-                    <div className='item-dropdown'>
-                      <div className="dropdown" onClick={closeMenu2}>
-                        <Link href="/knowledgebase">Knowledgebase</Link>
-                        <Link href="/faq">FAQ</Link>
-                        <Link href="/contact">Contact</Link>
-                      </div>
-                    </div>
-                  )}
-                  </div>
-                  
-                </div>
+              <Link href="/about-you">
+              Tentang Kamu
+              </Link>
             </div>
-
             <div className='navbar-item counter'>
-              <Link href="/news">
-              News
+              <Link href="/about">
+              Tentang Website
               </Link>
             </div>
 
@@ -336,7 +326,7 @@ const { isOpen: openMenu4, toggleDropdown: handleBtnClick4, closeDropdown: close
 
           {/********* Side Button *********/}
           <div className="menu_side_area">
-              <Link href="#" className="btn-line" id="btn-line">Get Hosting</Link>
+              
               {/********* Burger Button *********/}
               <button className="burgermenu" type="button" 
                 onClick={() => {
