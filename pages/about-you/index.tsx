@@ -18,6 +18,9 @@ import image3 from '../../public/img/icons/beauty.png';
 import image4 from '../../public/img/icons/kind.png';
 import image5 from '../../public/img/icons/spotify.png';
 import image6 from '../../public/img/icons/unique.png';
+import image7 from '../../public/img/gallery/gallery3.jpg';
+import image8 from '../../public/img/misc/hero.png';
+import image9 from '../../public/img/icons/stars.png';
 const GlobalStyles = createGlobalStyle`
 
 `;
@@ -59,7 +62,7 @@ export default function Home() {
         <div className="container z-1000">
               <div className="row gx-5 align-items-center">
                   <div className="col-lg-2 d-lg-block d-none">
-                      <Image src={image1} className="img-fluid" alt=""/>
+                      <Image src={image8} className="img-fluid" alt=""/>
                   </div>
                   <div className="col-lg-6">
                       <div className="subtitle wow fadeInUp mb-3">Siapa mba cantik?</div>
@@ -80,8 +83,8 @@ export default function Home() {
               <div className="row align-items-center gh-5">
                   <div className="col-lg-6 position-relative">
                       <div className="images-deco-1">
-                          <Image src={image3} className="d-img-1" alt=""/>
-                          <Image src={image3} className="d-img-2" alt=""/>
+                          <Image src={image7} className="d-img-1" alt=""/>
+                          <Image src={image9} className="d-img-2" alt=""/>
                           <div className="d-img-3 bg-color"></div>
                       </div>
                   </div>
@@ -90,20 +93,13 @@ export default function Home() {
                       <h2 >Maulina Nur <br />Laili</h2>
                       <ul className="d-list">
                         <li>Lahir di Malang, 9 Mei 2003</li>
-                        <li>Putra dari Bapak dan Ibu</li>
+                        <li>Putra dari Bapak Suwarno dan Ibu Lastri</li>
                         <li>Status Mahasiswi</li>
-                        <li>24/7 Customer Support</li>
+                        <li>Kalau status hubungan dah ada pacar :v</li>
                       </ul>
-                      <p >Lorem ipsum ea ut magna nisi amet reprehenderit eu 
-                      adipisicing nisi incididunt est sint fugiat deserunt tempor ea culpa nostrud 
-                      commodo deserunt et do ullamco non tempor veniam id culpa mollit veniam ut
-                      non adipisicing ad commodo laborum esse do sunt in cillum irure incididunt 
-                      officia quis ut.
+                      <p >
+                        Aku ga pandai bicara, tapi lek masala menjelaskan mba cantik iku piye, tentu bisa lah wkwk. Kamu iku seorang remaja putri yang hidup sebagai anak bungsu dari bapak ambe ibuk. Jadi kamu iku merupakan remaja yang diberi harapan besar oleh orang tua, tapi kamu bisa kok, meskpiun kadang sek enek pusing dll wkwk, wajar lah kan kamu juga manusia, tapi buktine kamu bisa kok melakukan banyak hal. Aku bangga nang kamu wkwk. <br />Terus kamu iku juga pandai, lek katamu kamu gabisa pelajaran, salah se wkwk... kamu merasa salah jurusan aja bisa sampai sejauh ini, utiwi skripsii nih wkwk. Moso ngunu i ga pinter :v. Banyak sekan lek misal pin dijelaskan aslie wkwk, mek kakean engkok.
                       </p>
-                      <div className="year-card ">
-                          <h1><span className="id-color">25</span></h1>
-                          <div className="atr-desc">Years<br/>Experience<br/>Hosting</div>
-                      </div>
                   </div>
               </div>
           </div>
@@ -141,7 +137,7 @@ export default function Home() {
                     <div>
                         <Image src={image5} className="mb20" alt="" width={100} height={100}/>
                         <h4>Suka Musik</h4>
-                        <p>Wkwkwkwk Spotify berjalan lek kata temen-temenmu. Bener se emang, kagu apa seng kamu gatau i wkwk ngerii 😭.</p>
+                        <p>Wkwkwkwk Spotify berjalan lek kata temen-temenmu. Bener se emang, lagu apa seng kamu gatau i wkwk ngerii 😭.</p>
                     </div>
                 </div>
 

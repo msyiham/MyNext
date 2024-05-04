@@ -82,7 +82,7 @@ export default function Home() {
                       <div className="subtitle mb20">Latar Belakang</div>
                       <h2 >Ngarang dikit</h2>
                       <p >
-                        Aku iku suka kamu banyak banyak wkwk.. tapi jujur aku gatau sebener e mau ngaih apa ang kamu. aku bikin iki, karena iki sesuatu yang mungkin bisa tak lakukan tapi ga banyak orang yang bisa, yo lek TI mungkin ini hal biasa, tapi aku yakin iki uduk hal yang biasa diberikan ke orang lain ebagai hadiah. Selain iku, lek bikin sendiri kan aku lebih banyak effort e wkwkwk. Aku berharap kamu suka., lof u sayang.. Happy birthday🎉
+                        Aku iku suka kamu banyak banyak wkwk.. tapi jujur aku gatau sebener e mau ngaih apa ang kamu. aku bikin iki, karena iki sesuatu yang mungkin bisa tak lakukan tapi ga banyak orang yang bisa, yo lek TI mungkin ini hal biasa, tapi aku yakin iki uduk hal yang biasa diberikan ke orang lain sebagai hadiah. Selain iku, lek bikin sendiri kan aku lebih banyak effort e wkwkwk. Aku berharap kamu suka., lof u sayang.. Happy birthday🎉
                       </p>
                       <div className="year-card ">
                           <div className="atr-desc">Ulang Tahun<br/> Ke-</div>
