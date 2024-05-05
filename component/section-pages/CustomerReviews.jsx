@@ -3,19 +3,14 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import Image from 'next/image';
 import { useState } from 'react';
 import image1 from"../../public/img/people/1.jpg";
-import image2 from"../../public/img/people/2.jpg";
-import image3 from"../../public/img/people/3.jpg";
-import image4 from"../../public/img/people/4.jpg";
-import image5 from"../../public/img/people/5.jpg";
-import image6 from"../../public/img/people/6.jpg";
-import image7 from"../../public/img/people/7.jpg";
-import image8 from"../../public/img/people/8.jpg";
+import image2 from"../../public/img/people/user.png";
+
 
 const Customerreviews = () => {
   const testimonials = [
     {
       content: "first impression e sebenere terlihat pendiam si tapi ternyata wow ada jiwa reog di dalamnya  trus aku merasa memiliki beberapa kesamaan sifat, kek 11 12 gitu tapi lek lina versi tercover dengan wajah yg pendiam dan seperti ibu peri ngunu ngunu o ga kenek senggol iku areke, coba senggolen la diamuk 😔 trus areke batu bgt coggg susah skali musuh batu satu ini, makane lek menghadapi jgn smsm atos harus dihadapi dgn lemah lembut ea overall areke teman yg baik meskipun smsm cegil 😔 tapi areke pemberi saran yg baik oponeh masalah relesyensip, kek ga semua iso menanggapi dgn netral gt lo lek aku cerita ttg cwoku, tapi lina iso lek tmnku yg lain terlalu memihak ng aku jd membuat cwoku terlihat salah terus. apalagi yhh bingung. suka ajh temenan sm lina sampe skarang, trims sdh mau berteman sm aku xixixi",
-      imageSrc: image3,
+      imageSrc: image2,
       author: "Nila"
     },
     {

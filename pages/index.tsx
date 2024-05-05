@@ -104,14 +104,14 @@ export default function Home() {
       </section>
 
       {/* section 7 */}
-      <section className="no-bottom">
+      <section className="">
         <Download/>
       </section>
 
       {/* section 8 */}
-      <section className="">
-        <Payment/>
-      </section>
+        {/* <section className="">
+          <Payment/>
+        </section> */}
 
       {/* footer */}
       <Footer/>

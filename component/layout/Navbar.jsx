@@ -2,14 +2,14 @@ import React, { useEffect, useState, useRef } from "react";
 import Link from 'next/link';
 import useOnclickOutside from "react-cool-onclickoutside";
 import Image from 'next/image';
-
+import { useRouter } from 'next/router';
 import logoImg from '../../public/img/logo.png';
 import logoImgmbl from '../../public/img/logo-mobile.png';
 
 
 
 const Navbar= function() {
-
+  const router = useRouter();
   const useDropdown = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -79,143 +79,25 @@ const { isOpen: openMenu4, toggleDropdown: handleBtnClick4, closeDropdown: close
               <div className="mobile">
                 {showmenu && 
                 <div className='menu'>
-
-                  <div className='navbar-item counter'>
-                    <div ref={ref}>
-                      <div className="dropdown-custom dropdown-toggle btn" 
-                        onClick={() => {
-                                        handleBtnClick();
-                                        closeMenu1();
-                                        closeMenu2();
-                                        closeMenu3();
-                                        closeMenu4();
-                                      }}>
-                        Home
-                      </div>
-                      {openMenu && (
-                        <div className='item-dropdown'>
-                          <div className="dropdown" onClick={closeMenu}>
-                            <Link href="/" onClick={() => setBtnIcon(!showmenu)}>Homepage One</Link>
-                            <Link href="/index1" onClick={() => setBtnIcon(!showmenu)}>Homepage Two</Link>
-                            <Link href="/index2" onClick={() => setBtnIcon(!showmenu)}>Homepage Three</Link>
-                            <Link href="/index3" onClick={() => setBtnIcon(!showmenu)}>Homepage Four</Link>
-                            <Link href="/index4" onClick={() => setBtnIcon(!showmenu)}>Homepage Five</Link>
-                          </div>
-                        </div>
-                      )}
-                    </div>
-                  </div>
-
-                  <div className='navbar-item counter'>
-                    <div ref={ref1}>
-                      <div className="dropdown-custom dropdown-toggle btn" 
-                        onClick={() => {
-                                        handleBtnClick1();
-                                        closeMenu();
-                                        closeMenu2();
-                                        closeMenu3();
-                                        closeMenu4();
-                                      }}>
-                        Game Servers
-                      </div>
-                      {openMenu1 && (
-                        <div className='item-dropdown'>
-                          <div className="dropdown" onClick={closeMenu1}>
-                            <Link href="/games" onClick={() => setBtnIcon(!showmenu)}>Games Server List</Link>
-                            <Link href="/pricing" onClick={() => setBtnIcon(!showmenu)}>Pricing Table One</Link>
-                            <Link href="/pricing2" onClick={() => setBtnIcon(!showmenu)}>Pricing Table Two</Link>
-                            <Link href="/pricing3" onClick={() => setBtnIcon(!showmenu)}>Pricing Table Three</Link>
-                          </div>
-                        </div>
-                      )}
-                    </div>
-                  </div>
-
                    <div className='navbar-item counter'>
-                      <Link href="/outgiving" onClick={() => setBtnIcon(!showmenu)}>
-                      Locations
+                      <Link href="/" onClick={() => setBtnIcon(!showmenu)}>
+                      Beranda
                       </Link>
                     </div>
                    <div className='navbar-item counter'>
-                      <Link href="/location" onClick={() => setBtnIcon(!showmenu)}>
-                      Locations
+                      <Link href="/outgiving" onClick={() => setBtnIcon(!showmenu)}>
+                      Ucapan
                       </Link>
                     </div>
-
-                    <div className='navbar-item counter'>
-                      <div ref={ref2}>
-                        <div className="dropdown-custom dropdown-toggle btn" 
-                          onClick={() => {
-                                        handleBtnClick2();
-                                        closeMenu1();
-                                        closeMenu();
-                                        closeMenu3();
-                                        closeMenu4();
-                                      }}>
-                          Support
-                        </div>
-                        {openMenu2 && (
-                          <div className='item-dropdown'>
-                            <div className="dropdown" onClick={closeMenu2}>
-                              <Link href="/knowledgebase" onClick={() => setBtnIcon(!showmenu)}>Knowledgebase</Link>
-                              <Link href="/faq" onClick={() => setBtnIcon(!showmenu)}>FAQ</Link>
-                              <Link href="/contact" onClick={() => setBtnIcon(!showmenu)}>Contact</Link>
-                            </div>
-                          </div>
-                        )}
-                      </div>
-                    </div>
-
-                    <div className='navbar-item counter'>
-                      <Link href="/news" onClick={() => setBtnIcon(!showmenu)}>
-                      News
+                   <div className='navbar-item counter'>
+                      <Link href="/about-you" onClick={() => setBtnIcon(!showmenu)}>
+                      Tentag Kamu
                       </Link>
                     </div>
-
-                    <div className='navbar-item counter'>
-                      <div ref={ref3}>
-                        <div className="dropdown-custom dropdown-toggle btn" 
-                          onClick={() => {
-                                        handleBtnClick3();
-                                        closeMenu1();
-                                        closeMenu2();
-                                        closeMenu();
-                                        closeMenu4();
-                                      }}>
-                          Company
-                        </div>
-                        {openMenu3 && (
-                          <div className='item-dropdown'>
-                            <div className="dropdown" onClick={closeMenu3}>
-                              <Link href="/about" onClick={() => setBtnIcon(!showmenu)}>About Us</Link>
-                              <Link href="/affliate" onClick={() => setBtnIcon(!showmenu)}>Affliates</Link>
-                            </div>
-                          </div>
-                        )}
-                      </div>
-                    </div>
-
-                    <div className='navbar-item counter'>
-                      <div ref={ref4}>
-                        <div className="dropdown-custom dropdown-toggle btn" 
-                          onClick={() => {
-                                        handleBtnClick4();
-                                        closeMenu1();
-                                        closeMenu2();
-                                        closeMenu3();
-                                        closeMenu();
-                                      }}>
-                          More Pages
-                        </div>
-                        {openMenu4 && (
-                          <div className='item-dropdown'>
-                            <div className="dropdown" onClick={closeMenu4}>
-                              <Link href="/login" onClick={() => setBtnIcon(!showmenu)}>Login</Link>
-                              <Link href="/register" onClick={() => setBtnIcon(!showmenu)}>Register</Link>
-                            </div>
-                          </div>
-                        )}
-                      </div>
+                   <div className='navbar-item counter'>
+                      <Link href="/about" onClick={() => setBtnIcon(!showmenu)}>
+                      Tentang Website
+                      </Link>
                     </div>
 
                 </div>
@@ -227,47 +109,12 @@ const { isOpen: openMenu4, toggleDropdown: handleBtnClick4, closeDropdown: close
           <div className="dekstop">
           <div className='menu'>
 
-            <div className='navbar-item counter'>
-                <div ref={ref}>
-                  <div className="dropdown-custom dropdown-toggle btn" 
-                     onMouseEnter={handleBtnClick} onMouseLeave={closeMenu}>
-                    Home
-                    {openMenu && (
-                    <div className='item-dropdown'>
-                      <div className="dropdown" onClick={closeMenu}>
-                        <Link href="/">Homepage One</Link>
-                        <Link href="/index1">Homepage Two</Link>
-                        <Link href="/index2">Homepage Three</Link>
-                        <Link href="/index3">Homepage Four</Link>
-                        <Link href="/index4">Homepage Five</Link>
-                      </div>
-                    </div>
-                  )}
-                  </div>
-                  
-                </div>
-            </div>
 
             <div className='navbar-item counter'>
-                <div ref={ref1}>
-                  <div className="dropdown-custom dropdown-toggle btn" 
-                     onMouseEnter={handleBtnClick1} onMouseLeave={closeMenu1}>
-                    Game Servers
-                    {openMenu1 && (
-                    <div className='item-dropdown'>
-                      <div className="dropdown" onClick={closeMenu1}>
-                        <Link href="/games">Games Server List</Link>
-                        <Link href="/pricing">Pricing Table One</Link>
-                        <Link href="/pricing2">Pricing Table Two</Link>
-                        <Link href="/pricing3">Pricing Table Three</Link>
-                      </div>
-                    </div>
-                  )}
-                  </div>
-                  
-                </div>
+              <Link href="/" className={"${router.pathname === '/' ? 'active' : ''}"}>
+              Beranda
+              </Link>
             </div>
-
             <div className='navbar-item counter'>
               <Link href="/outgiving">
               Ucapan
@@ -283,42 +130,6 @@ const { isOpen: openMenu4, toggleDropdown: handleBtnClick4, closeDropdown: close
               Tentang Website
               </Link>
             </div>
-
-            <div className='navbar-item counter'>
-                <div ref={ref3}>
-                  <div className="dropdown-custom dropdown-toggle btn" 
-                     onMouseEnter={handleBtnClick3} onMouseLeave={closeMenu3}>
-                    Company
-                    {openMenu3 && (
-                    <div className='item-dropdown'>
-                      <div className="dropdown" onClick={closeMenu3}>
-                        <Link href="/about">About Us</Link>
-                        <Link href="/affliate">Affliates</Link>
-                      </div>
-                    </div>
-                  )}
-                  </div>
-                  
-                </div>
-            </div>
-
-              <div className='navbar-item counter'>
-                  <div ref={ref4}>
-                    <div className="dropdown-custom dropdown-toggle btn" 
-                       onMouseEnter={handleBtnClick4} onMouseLeave={closeMenu4}>
-                      More Pages
-                      {openMenu4 && (
-                      <div className='item-dropdown'>
-                        <div className="dropdown" onClick={closeMenu4}>
-                          <Link href="/login">Login</Link>
-                          <Link href="/register">Register</Link>
-                        </div>
-                      </div>
-                    )}
-                    </div>
-                    
-                  </div>
-              </div>
 
             </div>
           </div>

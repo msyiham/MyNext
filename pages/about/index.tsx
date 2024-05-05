@@ -106,7 +106,7 @@ export default function Home() {
                         </div>
                         <div className="col-lg-6 col-md-6">
                             <h4>Kesulitan</h4>
-                            <p>Jujur aja ga banyak kesulitan seng a ge bikin iki, lek diuruh nyebutin ada se tapi.. wkwk. Seng pertama iku jelas masala waktu, kamu tau sendiri waktuku ngnggur i dikit dan aku saiki we gaiso melekan maneh koyok biyen, jadii ya aku ngerjain iki kurang lebih iku 2 bulanan wkwk.. Terus yang bikin aku lama juga iku mikirin is konten e mau tak isi apa.. yaa iitu aja se yang wkwk.</p>
+                            <p>Jujur aja ga banyak kesulitan seng ada ge bikin iki, lek disuruh nyebutin ada se tapi.. wkwk. Seng pertama iku jelas masala waktu, kamu tau sendiri waktuku nganggur i dikit dan aku saiki wes gaiso melekan maneh koyok biyen, jadii ya aku ngerjain iki kurang lebih iku 2 bulanan wkwk.. Terus yang bikin aku lama juga iku mikirin is konten e mau tak isi apa.. terus mungkin yo ada ae error e karena iku framework baru ge aku, pertama iki wkwk ya wajar se lek se nemuin error..yaa iitu aja se yang wkwk.</p>
                         </div>
                     </div>
                 </div>

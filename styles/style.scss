@@ -1306,6 +1306,7 @@ a.btn-line{
 }
 
 
+
 /* dropdown */
 .dropdown-custom.btn{
   color: $white !important;
@@ -1633,6 +1634,17 @@ h1.slider-title {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media (max-width: 720px) {
+  h1.slider-title {
+    font-size: 48px; /* Ganti ukuran font sesuai kebutuhan */
+  }
+}
+@media (max-width: 400px) {
+  h1.slider-title {
+    font-size: 30px; /* Ganti ukuran font sesuai kebutuhan */
+  }
+}
+
 
 .sw-price {
   color: #ffffff;
@@ -2178,6 +2190,24 @@ h1.slider-title {
       box-shadow: none;
     }
   }
+  @media (max-width: 570px) {
+    .accordion-button {
+      font-size: 14px; /* Ganti ukuran font sesuai kebutuhan */
+    }
+  }
+  @media (max-width: 480px) {
+    .accordion-button {
+      font-size: 10px; /* Ganti ukuran font sesuai kebutuhan */
+      padding: 8px 0;
+    }
+  }
+  @media (max-width: 370px) {
+    .accordion-button {
+      font-size: 8px; /* Ganti ukuran font sesuai kebutuhan */
+      padding: 8px 0;
+    }
+  }
+  
   .accordion-body{
     padding: 15px 0;
   }
