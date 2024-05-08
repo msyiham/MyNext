@@ -16,24 +16,17 @@ const footer = () => {
                     </div>
                     <div className="col-lg-4">
                         <div className="widget">
-                            <h5>Newsletter</h5>
-                            <form action="blank.php" className="row form-dark" id="form_subscribe" method="post" name="form_subscribe">
-                            <div className="col text-center">
-                                <input className="form-control" id="txt_subscribe" name="txt_subscribe" placeholder="enter your email" type="text" /> <Link href="#" id="btn-subscribe"><i className="arrow_right bg-color-secondary"></i></Link>
-                                <div className="clearfix"></div>
-                            </div>
-                            </form>
+                            <h5>Messages</h5>
                             <div className="spacer-10"></div>
-                            <small>Your email is safe with us. We don&apos;t spam.</small>
+                            <p>Jangan irii ya sama teman-teman yang dikasih hadiah fisik wkwk..</p>
                             <div className="spacer-30"></div>
                             <div className="widget">
-                                <h5>Follow Us on</h5>
+                                <h5>My Contact</h5>
+                                <p>Meskipun dah tau se kamu wkwk</p>
                                 <div className="social-icons">
-                                    <Link href="#"><i className="fa-brands fa-facebook-f"></i></Link>
-                                    <Link href="#"><i className="fa-brands fa-twitter"></i></Link>
-                                    <Link href="#"><i className="fa-brands fa-discord"></i></Link>
-                                    <Link href="#"><i className="fa-brands fa-tiktok"></i></Link>
-                                    <Link href="#"><i className="fa-brands fa-youtube"></i></Link>
+                                    <Link target="_blank" href="https://www.instagram.com/_hamsyii/"><i className="fa-brands fa-instagram"></i></Link>
+                                    <Link target="_blank" href="https://wa.me/6285230670806"><i className="fa-brands fa-whatsapp"></i></Link>
+                                    <Link target="_blank" href="https://www.tiktok.com/@hemhemhemm"><i className="fa-brands fa-tiktok"></i></Link>
                                 </div>
                             </div>
                         </div>
@@ -43,14 +36,8 @@ const footer = () => {
             <div className="subfooter">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6 col-sm-6">
+                        <div className="text-center">
                            Copyright 2024 - Build with love by <b style={{color:'aquamarine'}}>Syiham</b> 
-                        </div>
-                        <div className="col-lg-6 col-sm-6 text-lg-end text-sm-start">
-                            <ul className="menu-simple">
-                                <li><Link href="#">Terms &amp; Conditions</Link></li>
-                                <li><Link href="#">Privacy Policy</Link></li>
-                            </ul>
                         </div>
                     </div>
                 </div>

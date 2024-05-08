@@ -11,6 +11,7 @@ import image5 from '../../public/img/gallery/gallery9.jpg';
 import image6 from '../../public/img/gallery/gallery6.jpg';
 import image7 from '../../public/img/gallery/gallery8.jpg';
 import image8 from '../../public/img/gallery/gallery7.jpg';
+import image9 from '../../public/img/gallery/gallery10.jpg';
 
 const collection = () => {
     return(
@@ -22,7 +23,7 @@ const collection = () => {
                   <div className="spacer-20"></div>
               </div>
             </div>
-            <div className="row g-4 sequence">
+            <div className="row g-4 sequence justify-content-center">
 
             <div className="col-lg-3 col-md-6 gallery-item">
                 <div className="de-item wow">
@@ -134,9 +135,27 @@ const collection = () => {
             <div className="col-lg-3 col-md-6 gallery-item">
                 <div className="de-item wow">
                     <div className="d-overlay">
+                    <div className="d-label">
+                            Newest
+                        </div>
                         <div className="d-text">
-                            <h4>Kalem</h4>
-                            <p className="d-price"><br /><span className="price">kek ukhti kalem gitu</span></p>
+                            <h4>Pasmina</h4>
+                            <p className="d-price">wkwkwk <span className="price">pap kerudung baruu</span></p>
+                        </div>
+                    </div>
+                    <Image src={image9} className="img-fluid " alt=""/>
+                </div>
+            </div>
+
+            <div className="col-lg-6 col-md-12 gallery-item">
+                <div className="de-item wow">
+                    <div className="d-overlay">
+                        <div className="d-label">
+                            Kalem
+                        </div>
+                        <div className="d-text">
+                            <h4>My Fav</h4>
+                            <p className="d-price"><br /><span className="price">wkwkwk kek ukhti kalem gitu</span></p>
                         </div>
                     </div>
                     <Image src={image3} className="img-fluid " alt=""/>
